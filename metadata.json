@@ -1,0 +1,6 @@
+{
+  "name": "VYBORA",
+  "description": "Premium iOS-inspired music streaming application with glassmorphism, discovery, and personal audio library.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
