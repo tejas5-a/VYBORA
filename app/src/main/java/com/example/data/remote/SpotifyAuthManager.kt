@@ -19,7 +19,7 @@ class SpotifyAuthManager(private val context: Context) {
     private val prefs = context.getSharedPreferences("vybora_spotify_auth", Context.MODE_PRIVATE)
 
     companion object {
-        const val REDIRECT_URI = "vybora://callback"
+        const val REDIRECT_URI = "https://vybora-spotify-auth.vercel.app/api/callback"
         const val DEFAULT_CLIENT_ID = "c4d370e7048740d0bd4b4bb26b00b01c" // Customizable via Profile Settings
         const val AUTH_SCOPES = "user-read-private user-read-email playlist-read-private user-library-read"
     }
